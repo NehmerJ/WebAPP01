@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	z-index: 99;
+	list-style-type: none;
+}
+
+li a, .dbtn {
+	display: inline-block;
+	color: white;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+
+li a:hover, .ddown:hover .dbtn {
+	background-color: rgba(0,0,0,.5);
+	text-decoration: none;
+	color: white;
+}
+
+li .ddown {
+	display: inline-block;
+}
+
+.ddown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
+	z-index: 1;
+}
+
+.ddown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.ddown-content a:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+.ddown:hover .ddown-content {
+	display: block;
+}
+
+.topSect {
+	background-image: url(../images/tap.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.subSection {
+	height: 50%;
+	background-color: white;
+
+}
+
+.sect {
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: none;
+}
+
+.sectOne {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/hand.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+.sectTwo {
+	background-image: url(images/);
+
+}
+
+.footer {
+	height: 30%;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
