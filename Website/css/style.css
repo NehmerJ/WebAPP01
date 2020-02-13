@@ -107,15 +107,23 @@ li .ddown {
 	background-repeat: none;
 }
 
-.sectOne {
-	display: flex;
-	flex-direction: column;
+.left-half {
 	background-image: url(../images/hand.jpg);
-	height: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
+	height: 100%;
 }
 
+.right-half {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.sectOne {
+	height: 100%;
+}
 
 .sectTwo {
 	background-image: url(images/);
@@ -160,4 +168,10 @@ li .ddown {
 		font-size: 10px;
 	}
 
+}
+
+@media only screen and (max-width: 480px) {
+	li a {
+		font-size: 10px;
+	}
 }
