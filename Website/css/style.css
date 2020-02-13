@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 
 
 * {
@@ -93,6 +95,39 @@ li .ddown {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.borderBackground {
+	padding: 50px;
+	background-color: rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+
+.topTitle {
+	text-shadow: 3px 3px 7px rgba(0,0,0,.61);
+	color: white;
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+}
+
+.subTitle {
+	text-shadow: 3px 3px 7px rgba(0,0,0,.61);
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bolder;
+	color: white;
+}
+
+.topButton {
+	text-align: center;
+	padding: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .subSection {
