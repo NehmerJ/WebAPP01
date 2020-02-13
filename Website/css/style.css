@@ -29,6 +29,7 @@ ul {
 	width: 100%;
 	z-index: 99;
 	list-style-type: none;
+	position: fixed;
 }
 
 a {
@@ -95,7 +96,7 @@ li .ddown {
 
 .subSection {
 	height: 50%;
-	background-color: white;
+	background-color: #333;
 
 }
 
@@ -126,7 +127,7 @@ li .ddown {
 }
 
 .sectTwo {
-	background-image: url(images/);
+	background-image: url(../images/bottle.jpg);
 
 }
 
@@ -153,13 +154,13 @@ li .ddown {
 
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
 	.footer {
 		height: 20%;
 	}
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
 	.footerText{
 		font-size: 10px;
 	}
@@ -170,8 +171,8 @@ li .ddown {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1400px) {
 	li a {
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
