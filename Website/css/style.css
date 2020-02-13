@@ -110,17 +110,18 @@ li .ddown {
 .topTitle {
 	text-shadow: 3px 3px 7px rgba(0,0,0,.61);
 	color: white;
-	font-size: 30px;
+	font-size: 60px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: bolder;
 }
 
 .subTitle {
 	text-shadow: 3px 3px 7px rgba(0,0,0,.61);
-	font-size: 20px;
+	font-size: 40px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: bolder;
 	color: white;
+
 }
 
 .topButton {
@@ -220,6 +221,16 @@ li .ddown {
 @media only screen and (max-width: 760px) {
 	.left-half {
 		height: 50%;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.topTitle {
+		font-size: 30px;
+	}
+
+	.subTitle {
+		font-size: 20px;
 	}
 }
 
