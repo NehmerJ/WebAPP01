@@ -6,6 +6,8 @@
 	padding: 0;
 	box-sizing: border-box;
   	text-decoration: none;
+  	margin-bottom: 0;
+  	padding-bottom: 0;
 }
 
 html, body {
@@ -15,7 +17,6 @@ html, body {
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fafafa;
-  margin: 0;
   color: rgb(0,0,0,0.8);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -96,7 +97,7 @@ li .ddown {
 
 .subSection {
 	height: 50%;
-	background-color: #333;
+	background-color: white;
 
 }
 
@@ -128,21 +129,30 @@ li .ddown {
 
 .sectTwo {
 	background-image: url(../images/bottle.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
 
 }
 
 .footer {
-	height: 30%;
+	height: 20%;
 	background-color: #333;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 }
 
+.footerText {
+	position: absolute;
+	bottom: 10%;
+}
 
 .footerText, .footerText a {
 	color: white;
 	text-align: center;
+	font-size: 12px;
 }
 
 .footerText a {
@@ -154,11 +164,6 @@ li .ddown {
 
 }
 
-@media screen and (max-width: 1400px) {
-	.footer {
-		height: 20%;
-	}
-}
 
 @media screen and (max-width: 1400px) {
 	.footerText{
@@ -171,8 +176,23 @@ li .ddown {
 
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 500px) {
 	li a {
 		font-size: 8px;
 	}
 }
+
+@media only screen and (max-width: 760px) {
+	.left-half {
+		height: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
