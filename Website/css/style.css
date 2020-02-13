@@ -1,10 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+
+
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+  	text-decoration: none;
 }
 
 html, body {
 	height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fafafa;
+  margin: 0;
+  color: rgb(0,0,0,0.8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -15,6 +29,17 @@ ul {
 	width: 100%;
 	z-index: 99;
 	list-style-type: none;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #333;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  font-size: 12.5px;
 }
 
 li a, .dbtn {
@@ -103,4 +128,36 @@ li .ddown {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+
+.footerText, .footerText a {
+	color: white;
+	text-align: center;
+}
+
+.footerText a {
+	text-decoration: none;
+}
+
+.footerText a:hover {
+	text-decoration: none;
+
+}
+
+@media screen and (max-width: 1350px) {
+	.footer {
+		height: 20%;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.footerText{
+		font-size: 10px;
+	}
+
+	.footerText a {
+		font-size: 10px;
+	}
+
 }
