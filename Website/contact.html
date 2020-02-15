@@ -31,19 +31,19 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 
-<form class="myForm" onsubmit="return validateForm()" method="post">
-	<fieldset class="formBox">
-		<label for="fname">Full Name</label><br> <br>
-			<input type="text" placeholder="First and Last" required> <br> <br>
-		<label for="email-address"> Email</label> <br>
-			<input type="text" placeholder="email@example.com" required> <br> <br>
-		<label for="">Phone Number</label> <br>
-			<input type="text" placeholder="Phone Number" required> <br> <br>
-		<label for="">Street Address</label> <br>
-			<input type="text" placeholder="Street" required> <br> <br>
-		<label for="">City</label> <br>
-			<input type="text" placeholder="City" required>
-		<select name="state" required>
+
+<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input name="name" id="full-name" placeholder="First and Last" required="" type="text">
+    <label for="email-address">Email Address</label>
+    <input name="_replyto" id="email-address" placeholder="email@domain.tld" required="" type="email">
+    <label for="street-address">Street Address</label>
+    <input name="street" id="street-address" placeholder="Street" required="" type="text">
+    <fieldset class="locale">
+      <legend>Locale</legend>
+      <input name="city" placeholder="City" required="" type="text">
+      <select name="state" required="">
         <option value="Select" selected="" disabled="">State</option>
       	<option value="AL">Alabama</option>
       	<option value="AK">Alaska</option>
@@ -96,11 +96,15 @@
       	<option value="WV">West Virginia</option>
       	<option value="WI">Wisconsin</option>
       	<option value="WY">Wyoming</option>
-      </select> <br> <br>
-			<input type="submit" value="Contact Us">
-	</fieldset>
+      </select>
+      <input name="postal-code" placeholder="12345" required="" type="text">
+    </fieldset>
+    <label for="note">Note</label>
+    <textarea rows="2" name="note" id="note" placeholder="Include any additional information"></textarea>
+    <input name="_subject" id="email-subject" value="Registration Form Submission" type="hidden">
+  </fieldset>
+  <input value="Contact Us" type="submit">
 </form>
-	
 
 </body>
 </html>
