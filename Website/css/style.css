@@ -141,19 +141,22 @@ li .ddown {
 
 }
 
-.firstSection {
+.firstSection, .secondSection {
 	font-size: 18px;
 
 
 }
 
-.firstSectionTitle {
+.firstSectionTitle, .secondSectionTitle {
 	color: #2e64ab;
   	font-family: "Helvetica", sans-serif;
   	text-transform: uppercase;
   	font-size: 20px;
 }
 
+.info-text {
+	font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
 
 .sect {
 	height: 100%;
@@ -238,7 +241,7 @@ li .ddown {
 }
 
 @media only screen and (max-width: 760px) {
-	.left-half {
+	.left-half, .right-half {
 		height: 50%;
 	}
 }
@@ -253,28 +256,30 @@ li .ddown {
 	}
 }
 
-@media only screen and (max-width: 580px) {
-	.firstSection {
+@media only screen and (max-width: 700px) {
+	.firstSection, .secondSection {
 		font-size: 12px;
 	}
 
-	.firstSectionTitle {
+	.firstSectionTitle, .secondSectionTitle {
 		font-size: 14px;
 	}
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 700px) {
 	.right-half {
 		font-size: 12px;
 	}
+
 }
 
-@media only screen and (max-width: 900px) {
-	.subSection .firstSection {
-		height: 75%;
+@media only screen and (max-width: 600px) {
+	.firstSection, .secondSection {
+		font-size: 12px;
+	}
+
+	.firstSectionTitle, .secondSectionTitle {
+		font-size: 14px;
 	}
 }
-
-
-
 
