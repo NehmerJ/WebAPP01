@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 
 * {
@@ -81,4 +83,21 @@ li .ddown {
 
 .ddown:hover .ddown-content {
 	display: block;
+}
+
+
+.topSection {
+	background-image: url(../images/runningwater.jpg);
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topSectionTitle {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
 }
