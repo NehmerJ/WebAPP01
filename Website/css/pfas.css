@@ -102,6 +102,8 @@ li .ddown {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 150px;
 	text-decoration: underline;
+	background-color: rgba(0,0,0,.1);
+	border-radius: 10px;
 }
 
 .sectOne {
@@ -114,14 +116,9 @@ li .ddown {
 
 }
 
-.sectOneTitle {
+.sectionTitle {
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
-}
-
-
-.customSection {
-
 }
 
 .sectTwo {
@@ -132,3 +129,22 @@ li .ddown {
 	align-items: center;
 }
 
+.customSection {
+	font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 1216px) {
+	.topSectionTitle {
+		font-size: 100px;
+	}
+
+	.customSection {
+		font-size: 14px;
+	}
+
+	.sectionTitle {
+		font-size: 25px;
+	}
+}
