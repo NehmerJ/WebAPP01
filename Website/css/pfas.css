@@ -100,4 +100,35 @@ li .ddown {
 .topSectionTitle {
 	color: white;
 	font-family: 'Bebas Neue', cursive;
+	font-size: 150px;
+	text-decoration: underline;
 }
+
+.sectOne {
+	background-color: #333;
+	height: 75%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.sectOneTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+
+.customSection {
+
+}
+
+.sectTwo {
+	height: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
