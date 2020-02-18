@@ -43,49 +43,6 @@ a {
   font-size: 12.5px;
 }
 
-li a, .dbtn {
-	display: inline-block;
-	color: white;
-	padding: 16px 18px;
-	text-decoration: none;
-}
-
-li a:hover, .ddown:hover .dbtn {
-	background-color: rgba(0,0,0,.5);
-	text-decoration: none;
-	color: white;
-}
-
-li .ddown {
-	display: inline-block;
-}
-
-.ddown-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);
-	z-index: 1;
-}
-
-.ddown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-}
-
-.ddown-content a:hover {
-	background-color: rgba(0,0,0,.2);
-}
-
-.ddown:hover .ddown-content {
-	display: block;
-}
-
-
 .topSection {
 	background-image: url(../images/runningwater.jpg);
 	height: 100%;
@@ -168,7 +125,49 @@ li .ddown {
 		font-size: 60px;
 	}
 
-	.customSection {
-		
+	.sectOne {
+		height: 100%;
+	}
+
+	.sectTwo {
+		height: 130%;
+	}
+
+	.topSection {
+		height: 50%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.sectOne {
+		height: 120%;
+	}
+
+	.sectTwo {
+		height: 160%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.sectOne {
+		height: 130%;
+	}
+
+	.sectTwo {
+		height: 175%;
+	}
+
+	.topSectionTitle {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 385px) {
+	.sectOne {
+		height: 150%;
+	}
+
+	.sectTwo {
+		height: 200%;
 	}
 }
