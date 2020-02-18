@@ -6,37 +6,75 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="css/pfas.css">
+	<script src="https://kit.fontawesome.com/e0990894da.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<ul class="is-mobile">
-    <li><a href="index.html">Home</a></li>
-    <li class="ddown">
-      <a href="services.html" class="dbtn">Services</a>
-      <div class="ddown-content">
-        <a href="ourproduct.html">Our Product</a>
+	<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://www.facebook.com/wellerwaterhomesolutions/"><i class="fab fa-facebook-square fa-2x"style="color:#3b5998;" ></i></a>
+  	<a class="navbar-item" href="https://twitter.com/waterweller"><i class="fab fa-twitter-square fa-2x" style="color: #38A1F3;"></i></a>
+  	<a class="navbar-item" href="https://www.linkedin.com/company/weller-water-llc/?trk=ppro_cprof"><i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i></a>
+  	<a class="navbar-item" href="https://www.instagram.com/wellerwatertreatment/"><i class="fab fa-instagram fa-2x" style="color: #231F20;"></i></a>
+  	<a class="navbar-item" href="https://www.youtube.com/channel/UCu5ue5ntDYlxBmhtM38u9AA"><i class="fab fa-youtube fa-2x" style="color: #ED3833;"></i></a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item customFont">
+        Home
+      </a>
+
+      <a class="navbar-item customFont">
+        Services
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable	">
+        <a class="navbar-link is-arrowless customFont">
+          Pfas
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item customFont">
+            About
+          </a>
+          <a class="navbar-item customFont">
+            Jobs
+          </a>
+          <a class="navbar-item customFont">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item customFont">
+            Report an issue
+          </a>
+        </div>
       </div>
-    </li>
-    <li class="ddown">
-      <a href="pfas.html">PFAS</a>
-      <div class="ddown-content">
-        <a href="Arsenic.html">Arsenic</a>
-        <a href="Lead.html">Lead</a>
-        <a href="Iron.html">Iron</a>
-        <a href="Nitrate.html">Nitrate</a>
-        <a href="Nitrite.html">Nitrite</a>
-      </div>
-    </li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+
+      <a class="navbar-item customFont">
+      	About
+      </a>
+
+      <a class="navbar-item customFont">
+      	Contact
+      </a>
+    </div>
+  </div>
+</nav>
 
  <div class="topSection is-mobile">
  	<div class="topSectionTitle">
  		<h3>We leave no PFAS.</h3>
  	</div>
  </div>
- <div class="sectOne is-mobile">
- 	<section class="container customSection">
+ <div class="sectOne container is-fluid">
+ 	<section class="customSection">
 			<header>
 				<h2 class="sectionTitle">What are PFAS?</h2>
 			</header>
@@ -55,8 +93,8 @@
 		</section>
 	</div>
  </div>
-<div class="sectTwo is-mobile">
-	<section class=" container customSection">
+<div class="sectTwo container is-fluid">
+	<section class="customSection">
 			<header>
 				<h2 class="sectionTitle">How can I be exposed to PFAS?</h2>
 			</header>
@@ -97,5 +135,53 @@
 		    Even though recent efforts to remove PFAS have reduced the likelihood of exposure, some products may still contain them.
 		</section>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
+</script>
 </body>
 </html>
