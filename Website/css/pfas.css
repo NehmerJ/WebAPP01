@@ -148,3 +148,27 @@ li .ddown {
 		font-size: 25px;
 	}
 }
+
+@media only screen and (max-width: 714px) {
+	.topSectionTitle {
+		font-size: 80px;
+	}
+
+	.customSection {
+		font-size: 12px;
+	}
+
+	.sectionTitle {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 526px) {
+	.topSectionTitle {
+		font-size: 60px;
+	}
+
+	.customSection {
+		
+	}
+}
