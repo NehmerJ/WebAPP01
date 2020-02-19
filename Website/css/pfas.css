@@ -90,6 +90,48 @@ a {
 	font-size: 18px;
 }
 
+.sectThree {
+	height: 75%;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.customParagraph {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.sectFour {
+  background-image: url(../images/waterincup.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.columnOne, .columnTwo, .columnThree, .columnFour, .columnFive {
+	background-color: rgba(0,0,0,.6);
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.columnOne:hover, .columnTwo:hover, .columnThree:hover, .columnFour:hover, .columnFive:hover {
+	background-color: rgba(0,0,0,.8);
+}
+
 .footerSection {
 	display: flex;
 	justify-content: center;
