@@ -90,7 +90,23 @@ a {
 	font-size: 18px;
 }
 
+.footerSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	height: 20%;
+	text-align: center;
+}
+.customFooter, p a {
+	font-size: 10px;
+	color: white;
+}
 
+p a:hover {
+	text-decoration: none;
+	color: white;
+}
 
 @media only screen and (max-width: 1216px) {
 	.topSectionTitle {
