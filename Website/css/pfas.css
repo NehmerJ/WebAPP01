@@ -7,6 +7,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	margin-bottom: 0;
 }
 
 html, body {
@@ -155,7 +156,7 @@ p a:hover {
 		font-size: 100px;
 	}
 
-	.customSection {
+	.customSection, .customParagraph, .column {
 		font-size: 14px;
 	}
 
@@ -169,7 +170,7 @@ p a:hover {
 		font-size: 80px;
 	}
 
-	.customSection {
+	.customSection, .customParagraph, .column {
 		font-size: 12px;
 	}
 
@@ -228,5 +229,28 @@ p a:hover {
 	.sectTwo {
 		height: 200%;
 	}
+
+	.sectThree {
+		height: 100%;
+	}
 }
 
+@media only screen and (max-width: 375px) {
+	.sectTwo {
+		height: 210%;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.sectFour {
+		height: 140%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.sectFour {
+		height: 170%;
+	}
+}
