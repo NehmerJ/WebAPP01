@@ -162,8 +162,314 @@ p a:hover {
 	}
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 811px) {
 	.sectTwo {
 		height: 115%;
+	}
+}
+
+@media only screen and (max-width:787px) {
+	.sectOne {
+		height: 95%;
+	}
+
+	.sectTwo {
+		height: 125%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.sectOne {
+		height: 105%;
+	}
+
+	.sectTwo {
+		height: 140%;
+	}
+
+	.topSectionTitle {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 645px) {
+	.customSection, .customParagraph {
+		font-size: 16px;
+	}
+
+	.sectionTitle {
+		font-size: 25px;
+	}	
+}
+
+@media only screen and (max-width: 540px) {
+	.topSectionTitle {
+		font-size: 70px;
+	}
+
+	.customSection, .customParagraph {
+		font-size: 14px;
+	}
+
+	.sectionTitle {
+		font-size: 20px;
+	}
+
+	.sectFour {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.sectOne {
+		height: 115%;
+	}
+
+	.sectTwo {
+		height: 155%;
+	}
+
+	.sectThree {
+		height: 85%;
+	}
+
+	.topSectionTitle {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.sectOne {
+		height: 125%;
+	}
+
+	.sectTwo {
+		height: 170%;
+	}
+
+	.sectThree {
+		height: 95%;
+	}
+}
+
+@media only screen and (max-width: 395px) {
+	.sectOne {
+		height: 135%;
+	}
+
+	.sectTwo {
+		height: 185%;
+	}
+
+	.sectThree {
+		height: 105%;
+	}
+
+	.topSectionTitle {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	.customSection, .customParagraph, .sectFour {
+		font-size: 12px;
+	}
+
+	.sectionTitle {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-height: 640px) {
+	.sectOne {
+		height: 145%;
+	}
+
+	.sectTwo {
+		height: 200%;
+	}
+
+	.footer {
+		font-size: 10px;
+	}
+
+	.sectThree {
+		height: 110%;
+	}
+
+	p a {
+		font-size: 10px;
+	}
+
+	.topSectionTitle {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-height: 360px) {
+	.customSection, .customParagraph, .sectFour {
+		font-size: 12px;
+	}
+
+	.sectionTitle {
+		font-size: 18px;
+	}
+
+	.sectOne {
+		height: 155%;
+	}
+
+	.sectTwo {
+		height: 210%;
+	}
+
+	.sectThree {
+		height: 125%;
+	}
+}
+
+@media only screen and (max-height: 1366px) {
+	.sectOne {
+		height: 60%;
+	}
+
+	.sectTwo {
+		height: 80%;
+	}
+
+	.sectThree {
+		height: 50%;
+	}
+}
+
+@media only screen and (max-height: 1280px) {
+	.sectOne {
+		height: 80%;
+	}
+
+	.sectTwo {
+		height: 100%;
+	}
+
+	.sectThree {
+		height: 60%;
+	}
+}
+
+
+
+@media only screen and (max-height: 896px) {
+	.sectOne {
+		height: 125%;
+	}
+
+	.sectTwo {
+		height: 170%;
+	}
+
+	.sectThree {
+		height: 95%;
+	}
+}
+
+@media only screen and (max-height: 846px) {
+	.sectTwo {
+		height: 175%;
+	}
+}
+
+@media only screen and (max-height: 834px) {
+	.sectTwo {
+		height: 115%;
+	}
+}
+
+@media only screen and (max-height: 812px) {
+	.sectOne {
+		height: 160%;
+	}
+
+	.sectTwo {
+		height: 210%;
+	}
+
+	.sectThree {
+		height: 120%;
+	}
+}
+
+@media only screen and (max-height: 800px) {
+	.sectOne {
+		height: 90%;
+	}
+
+	.sectTwo {
+		height: 120%;
+	}
+
+	.sectThree {
+		height: 70%;
+	}
+}
+
+@media only screen and (max-height: 768px) {
+	.sectOne {
+		height: 95%;
+	}
+
+	.sectTwo {
+		height: 130%;
+	}
+}
+
+@media only screen and (max-height: 736px) {
+	.sectOne {
+		height: 150%;
+	}
+
+	.sectTwo {
+		height: 210%;
+	}
+
+	.sectThree {
+		height: 120%;
+	}
+}
+
+@media only screen and (max-height: 667px) {
+	.sectOne {
+		height: 190%;
+	}
+
+	.sectTwo {
+		height: 250%;
+	}
+
+	.sectThree {
+		height: 140%;
+	}
+}
+
+@media only screen and (max-height: 414px) {
+	.customSection, .customParagraph, .sectFour {
+		font-size: 14px;
+	}
+
+	.sectionTitle {
+		font-size: 20px;
+	}
+
+	.sectTwo {
+		height: 
+	}
+}
+
+@media only screen and (max-height: 740px) {
+	footer {
+		font-size: 10px;
+	}
+
+	p a {
+		font-size: 10px;
 	}
 }
