@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #333;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  font-size: 12.5px;
+}
+
+.topSect {
+	height: 100%;
+	background-image: url(../images/waterincup.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topSectTitle {
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 150px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.sect {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.customSection {
+	font-size: 18px;
+}
+
+.flexSection {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.left-side {
+	flex: 1;
+	background-color: #fff;
+	padding: 50px;
+}
+
+.right-side {
+	flex: 1;
+	background-image: url(../images/kitchen.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.subDivider {
+	height: 30%;
+	background-image: url(../images/calm.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subTitle {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 60px;
+}
+
+.midArticle {
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	background-color: #333;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+p a {
+	color: white;
+	font-size: 12px;
+}
+
+p a:hover {
+	color: white;
+}
+
+@media only screen and (max-width: 1350px) {
+	.left-side {
+		flex-basis: 100%;
+	}
+}
