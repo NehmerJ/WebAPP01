@@ -89,43 +89,47 @@ a {
 	text-transform: uppercase;
 	font-family: 'Asap Condensed', sans-serif;
 	font-size: 60px;
+	text-align: center;
 }
 
 .midArticle {
 	padding: 50px;
 }
 
+.subDividerTwo {
+	height: 30%;
+	background-image: url(../images/bottle.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
 
+.left-half {
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+	background-image: url(../images/clear-disposable-bottle-on-black-surface-1000084.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+.right-half {
+	padding: 30px;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
+.footerDiv {
 	width: 100%;
 	background-color: #333;
 	color: white;
@@ -150,5 +154,52 @@ p a:hover {
 @media only screen and (max-width: 1350px) {
 	.left-side {
 		flex-basis: 100%;
+	}
+	.right-half {
+		flex-basis: 100%;
+	}
+
+	.subTitle {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.topSectTitle {
+		font-size: 100px;
+	}
+
+	.customSection {
+		font-size: 14px;
+	}
+
+	.subTitle {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.customSection {
+		font-size: 12px;
+	}
+
+	.topSectTitle {
+		font-size: 80px;
+	}
+
+	.subTitle {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.topSectTitle {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.subTitle {
+		font-size: 20px;
 	}
 }
