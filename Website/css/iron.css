@@ -152,7 +152,45 @@ p a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-	.topSect {
+	.topTitle {
 		font-size: 100px;
+	}
+
+	.customText {
+		font-size: 14px;
+	}
+
+	.subTitle {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.topTitle {
+		font-size: 90px;
+	}
+
+	.customText {
+		font-size: 12px;
+	}
+
+	.subTitle {
+		font-size: 30px;
+	}
+
+	.footerDiv, p a {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.subTitle {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.topTitle {
+		font-size: 80px;
 	}
 }
