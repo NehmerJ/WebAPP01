@@ -52,7 +52,6 @@ a {
 }
 
 .sectOne {
-	height: 75%;
 	background-color: #333;
 	color: white;
 }
@@ -67,13 +66,11 @@ a {
 }
 
 .sectTwo {
-	height: 100%;
 	background-color: white;
 
 }
 
 .sectThree {
-	height: 75%;
 	background-color: #333;
 	color: white;
 	
@@ -111,7 +108,7 @@ span {
 	background-color: rgba(0,0,0,.8);
 }
 
-.footer {
+.footerDiv {
 	width: 100%;
 	background-color: #333;
 	color: white;
@@ -140,336 +137,62 @@ p a:hover {
 	}
 }
 
+@media only screen and (max-width: 1150px) {
+	.topSectionTitle {
+		font-size: 100px;
+	}
+
+	.customSection, .customParagraph, .sectFour {
+		font-size: 16px;
+	}
+
+	.sectionTitle {
+		font-size: 25px;
+	}
+}
+
 @media only screen and (max-width: 930px) {
 	.One, .Two, .Three, .Four, .Five {
 		flex-basis: 50%;
 	}
 }
 
-@media only screen and (max-width: 1200px) {
-	.sectOne {
-		height: 85%;
-	}
-
-	.sectTwo {
-		height: 110%;
-	}
-}
-
-@media only screen and (max-width: 1100px) {
-	.topSectionTitle {
-		font-size: 100px;
-	}
-}
-
-@media only screen and (max-width: 811px) {
-	.sectTwo {
-		height: 115%;
-	}
-}
-
-@media only screen and (max-width:787px) {
-	.sectOne {
-		height: 95%;
-	}
-
-	.sectTwo {
-		height: 125%;
-	}
-}
-
-@media only screen and (max-width: 720px) {
-	.sectOne {
-		height: 105%;
-	}
-
-	.sectTwo {
-		height: 140%;
-	}
-
+@media only screen and (max-width: 800px) {
 	.topSectionTitle {
 		font-size: 80px;
 	}
-}
 
-@media only screen and (max-width: 645px) {
-	.customSection, .customParagraph {
-		font-size: 16px;
+	.customSection, .customParagraph, .sectFour {
+		font-size: 14px;
 	}
-
-	.sectionTitle {
-		font-size: 25px;
-	}	
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
 	.topSectionTitle {
 		font-size: 70px;
 	}
 
-	.customSection, .customParagraph {
-		font-size: 14px;
+	.customSection, .customParagraph, .sectFour {
+		font-size: 12px;
 	}
 
 	.sectionTitle {
 		font-size: 20px;
 	}
 
-	.sectFour {
-		font-size: 14px;
+	.footerDiv, p a {
+		font-size: 10px;
 	}
 }
 
-@media only screen and (max-width: 460px) {
-	.sectOne {
-		height: 115%;
-	}
-
-	.sectTwo {
-		height: 155%;
-	}
-
-	.sectThree {
-		height: 85%;
-	}
-
-	.topSectionTitle {
-		font-size: 60px;
-	}
-}
-
-@media only screen and (max-width: 425px) {
-	.sectOne {
-		height: 125%;
-	}
-
-	.sectTwo {
-		height: 170%;
-	}
-
-	.sectThree {
-		height: 95%;
-	}
-}
-
-@media only screen and (max-width: 395px) {
-	.sectOne {
-		height: 135%;
-	}
-
-	.sectTwo {
-		height: 185%;
-	}
-
-	.sectThree {
-		height: 105%;
-	}
-
+@media only screen and (max-width: 500px) {
 	.topSectionTitle {
 		font-size: 50px;
 	}
 }
 
-@media only screen and (max-width: 365px) {
-	.customSection, .customParagraph, .sectFour {
-		font-size: 12px;
-	}
-
-	.sectionTitle {
-		font-size: 18px;
-	}
-}
-
-@media only screen and (max-height: 640px) {
-	.sectOne {
-		height: 145%;
-	}
-
-	.sectTwo {
-		height: 200%;
-	}
-
-	.footer {
-		font-size: 10px;
-	}
-
-	.sectThree {
-		height: 110%;
-	}
-
-	p a {
-		font-size: 10px;
-	}
-
+@media only screen and (max-width: 430px) {
 	.topSectionTitle {
-		font-size: 50px;
-	}
-}
-
-@media only screen and (max-height: 360px) {
-	.customSection, .customParagraph, .sectFour {
-		font-size: 12px;
-	}
-
-	.sectionTitle {
-		font-size: 18px;
-	}
-
-	.sectOne {
-		height: 155%;
-	}
-
-	.sectTwo {
-		height: 210%;
-	}
-
-	.sectThree {
-		height: 125%;
-	}
-}
-
-@media only screen and (max-height: 1366px) {
-	.sectOne {
-		height: 60%;
-	}
-
-	.sectTwo {
-		height: 80%;
-	}
-
-	.sectThree {
-		height: 50%;
-	}
-}
-
-@media only screen and (max-height: 1280px) {
-	.sectOne {
-		height: 80%;
-	}
-
-	.sectTwo {
-		height: 100%;
-	}
-
-	.sectThree {
-		height: 60%;
-	}
-}
-
-
-
-@media only screen and (max-height: 896px) {
-	.sectOne {
-		height: 125%;
-	}
-
-	.sectTwo {
-		height: 170%;
-	}
-
-	.sectThree {
-		height: 95%;
-	}
-}
-
-@media only screen and (max-height: 846px) {
-	.sectTwo {
-		height: 175%;
-	}
-}
-
-@media only screen and (max-height: 834px) {
-	.sectTwo {
-		height: 115%;
-	}
-}
-
-@media only screen and (max-height: 812px) {
-	.sectOne {
-		height: 160%;
-	}
-
-	.sectTwo {
-		height: 210%;
-	}
-
-	.sectThree {
-		height: 120%;
-	}
-}
-
-@media only screen and (max-height: 800px) {
-	.sectOne {
-		height: 90%;
-	}
-
-	.sectTwo {
-		height: 120%;
-	}
-
-	.sectThree {
-		height: 70%;
-	}
-}
-
-@media only screen and (max-height: 768px) {
-	.sectOne {
-		height: 95%;
-	}
-
-	.sectTwo {
-		height: 130%;
-	}
-}
-
-@media only screen and (max-height: 736px) {
-	.sectOne {
-		height: 150%;
-	}
-
-	.sectTwo {
-		height: 210%;
-	}
-
-	.sectThree {
-		height: 120%;
-	}
-}
-
-@media only screen and (max-height: 667px) {
-	.sectOne {
-		height: 190%;
-	}
-
-	.sectTwo {
-		height: 250%;
-	}
-
-	.sectThree {
-		height: 140%;
-	}
-}
-
-@media only screen and (max-height: 414px) {
-	.customSection, .customParagraph, .sectFour {
-		font-size: 14px;
-	}
-
-	.sectionTitle {
-		font-size: 20px;
-	}
-
-	.sectTwo {
-		height: 
-	}
-}
-
-@media only screen and (max-height: 740px) {
-	footer {
-		font-size: 10px;
-	}
-
-	p a {
-		font-size: 10px;
+		font-size: 45px;
 	}
 }
