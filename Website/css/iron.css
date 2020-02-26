@@ -45,6 +45,83 @@ a {
 	text-shadow: 1px 1px 2px black;
 }
 
+.midSect {
+	display: flex;
+}
+
+.customText {
+	font-size: 18px;
+}
+
+.left-text {
+	padding: 30px;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+}
+
+.right-image {
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+	background-image: url(../images/clean-clear-cold-drink-416528.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.subDivider {
+	height: 30%;
+	background-image: url(../images/Iron.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subTitle {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Asap Condensed', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: rgba(0,0,0,.2);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.bottomSect {
+	display: flex;
+}
+
+.left-side {
+	background-image: url(../images/close-up-of-bottle-pouring-water-on-glass-327090.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+}
+
+.right-side {
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	-o-flex: 1;
+	flex: 1;
+	padding: 30px;
+}
+
 .footerDiv {
 	width: 100%;
 	background-color: #333;
@@ -65,4 +142,17 @@ p a {
 
 p a:hover {
 	color: white;
+}
+
+
+@media only screen and (max-width: 1500px) {
+	.left-text, .right-side {
+		flex-basis: 100%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.topSect {
+		font-size: 100px;
+	}
 }
